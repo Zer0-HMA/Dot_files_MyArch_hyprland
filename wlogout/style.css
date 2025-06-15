@@ -1,0 +1,67 @@
+* {
+  font-family: JetBrainsMonoNerdFontMono;
+  font-size: 20px;
+  color: #cfd8dc; /* gris claro azulado */
+}
+
+window {
+  background-color: rgba(10, 15, 30, 0.65); /* azul profundo translúcido */
+  border-radius: 12px;
+  border: 1px solid rgba(0, 255, 255, 0.2); /* línea tenue cian */
+  padding: 20px;
+}
+
+button {
+  background-color: rgba(0, 150, 180, 0.25);
+  color: #d0d7de;
+  border: 2px solid rgba(0, 255, 255, 0.3);
+  border-radius: 12px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 28%; /* 👈 Tamaño reducido del ícono */
+  margin: 14px;
+  min-width: 120px;
+  min-height: 120px;
+  box-shadow: 0 0 8px rgba(0, 255, 255, 0.15);
+}
+
+button:hover {
+  background-color: rgba(0, 180, 210, 0.35); /* más cyan al hover */
+  box-shadow: 0 0 12px rgba(0, 255, 255, 0.3); /* glow más fuerte */
+}
+
+button:active {
+  background-color: rgba(0, 110, 160, 0.6); /* azul más intenso al click */
+  box-shadow: 0 0 16px rgba(0, 255, 255, 0.45); /* destello */
+}
+
+/* Íconos con el mismo estilo */
+#lock {
+  background-color: rgba(0, 150, 150, 0.3);
+  background-image: url("/usr/share/wlogout/icons/transparent-3.png");
+}
+
+#logout {
+  background-color: rgba(0, 130, 160, 0.3);
+  background-image: url("/usr/share/wlogout/icons/transparent-6.png");
+}
+
+#suspend {
+  background-color: rgba(0, 180, 200, 0.3);
+  background-image: url("/usr/share/wlogout/icons/transparent-2.png");
+}
+
+#hibernate {
+  background-color: rgba(0, 120, 150, 0.3);
+  background-image: url("/usr/share/wlogout/icons/transparent-1.png");
+}
+
+#shutdown {
+  background-color: rgba(0, 100, 130, 0.3);
+  background-image: url("/usr/share/wlogout/icons/transparent-4.png");
+}
+
+#reboot {
+  background-color: rgba(0, 160, 190, 0.3);
+  background-image: url("/usr/share/wlogout/icons/transparent-5.png");
+}

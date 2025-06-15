@@ -1,0 +1,83 @@
+* {
+    font-family: JetBrains Mono, Symbols Nerd Font;
+    font-size: 24px;
+    transition-property: background-color, color;
+    transition-duration: 0.7s;
+    color: #a0accf; /* gris azulado claro */
+}
+
+window {
+    background-color: #1a1f2e; /* azul muy oscuro/gris */
+}
+
+button {
+    background-color: #1a1f2e;
+    border-style: solid;
+    border-radius: 50px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 15%;
+    margin: 15px;
+    border-width: 1px;
+    border-color: transparent;
+    color: #a0accf;
+}
+
+button:active,
+button:hover {
+    background-color: rgba(90, 114, 184, 0.85); /* azul moderado con transparencia */
+    color: #e1e6f0; /* gris muy claro para texto */
+}
+
+button:focus {
+    background-color: rgba(90, 114, 184, 0.85);
+    color: #e1e6f0;
+}
+
+#lock {
+    background-image: url("/home/zer0hma/.config/assets/wlogout/assets/lock.png");
+}
+
+#lock:hover {
+    background-image: url("/home/zer0hma/.config/assets/wlogout/assets/lock-hover.png");
+}
+
+#logout {
+    background-image: url("/home/zer0hma/.config/assets/wlogout/assets/logout.png");
+}
+
+#logout:hover {
+    background-image: url("/home/zer0hma/.config/assets/wlogout/assets/logout-hover.png");
+}
+
+#suspend {
+    background-image: url("/home/zer0hma/.config/assets/wlogout/assets/sleep.png");
+}
+
+#suspend:hover {
+    background-image: url("/home/zer0hma/.config/assets/wlogout/assets/sleep-hover.png");
+}
+
+#shutdown {
+    background-image: url("/home/zer0hma/.config/assets/wlogout/assets/power.png");
+}
+
+#shutdown:hover {
+    background-image: url("/home/zer0hma/.config/assets/wlogout/assets/power-hover.png");
+}
+
+#reboot {
+    background-image: url("/home/zer0hma/.config/assets/wlogout/assets/restart.png");
+}
+
+#reboot:hover {
+    background-image: url("/home/zer0hma/.config/assets/wlogout/assets/restart-hover.png");
+}
+
+#hibernate {
+    background-image: url("/home/zer0hma/.config/assets/wlogout/assets/sleep.png");
+}
+
+#hibernate:hover {
+    background-image: url("/home/zer0hma/.config/assets/wlogout/assets/sleep-hover.png");
+}

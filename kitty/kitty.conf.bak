@@ -1,0 +1,23 @@
+font_size 11.5
+window_padding_width 8
+
+# Fuente principal (Nerd Font para íconos y buena estética)
+font_family JetBrainsMono Nerd Font
+bold_font auto
+italic_font auto
+bold_italic_font auto
+
+# Tema
+include theme.conf
+
+# Transparencia (opcional, si usas picom)
+# background_opacity 0.60
+
+# Decoraciones y cierre
+# hide_window_decorations yes
+# confirm_os_window_close 0
+
+# BEGIN_KITTY_THEME
+# Adapta Nokto Maia
+include current-theme.conf
+# END_KITTY_THEME
