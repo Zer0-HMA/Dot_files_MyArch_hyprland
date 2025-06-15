@@ -6,6 +6,6 @@ Este repositorio incluye configuraciones basadas en el trabajo de los siguientes
 - Tema de SDDM basado en [sddm-astronaut-theme](https://github.com/Keyitdev/sddm-astronaut-theme)  
 - Configuración y diseño de barra tomado de [mechabar](https://github.com/sejjy/mechabar)  
 
-Te invitamos a visitar estos repositorios originales para más detalles y actualizaciones.
-
+Te invito a visitar estos repositorios originales para más detalles y actualizaciones.
+Ellos mismos tienen archivos de instalacion por si lo quieres modificar, aqui solo muestro lo que tengo instalado
 ---
